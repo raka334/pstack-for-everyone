@@ -1,0 +1,13 @@
+- insert:
+    - id: pstack-skills
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: pstack-for-everyone
+        includeDefaultRoots: false
+        bundledSkillDir: !!js >-
+          process.getBuiltinModule('node:path').resolve(
+            process.getBuiltinModule('node:path').dirname(
+              process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-pstack-for-everyone/package.json')
+            ),
+            'skills'
+          )

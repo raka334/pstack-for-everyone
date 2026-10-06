@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pstack-for-everyone",
+  "owner": {
+    "name": "raka334"
+  },
+  "metadata": {
+    "description": "Portable pstack skills for coding agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pstack",
+      "source": "./",
+      "description": "Portable engineering workflows, reusable skills, and principles for coding agents.",
+      "version": "0.1.0"
+    }
+  ]
+}

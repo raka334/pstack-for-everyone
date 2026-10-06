@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pstack",
+  "version": "0.1.0",
+  "description": "Portable engineering workflows, reusable skills, and principles for coding agents.",
+  "author": {
+    "name": "raka334"
+  },
+  "homepage": "https://github.com/raka334/pstack-for-everyone",
+  "repository": "https://github.com/raka334/pstack-for-everyone",
+  "license": "MIT",
+  "keywords": [
+    "pstack",
+    "poteto-mode",
+    "workflow",
+    "principles",
+    "agent-skills"
+  ]
+}

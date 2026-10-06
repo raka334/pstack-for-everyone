@@ -1,0 +1,33 @@
+{
+  "name": "dsh-pstack-for-everyone",
+  "version": "0.1.0",
+  "description": "Portable pstack Agent Skills for coding agents, with a DeepSeek Harness bundle adapter.",
+  "type": "module",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "plugin.json",
+    ".claude-plugin/",
+    ".agents/",
+    "skills/",
+    "dsh/cordis.patch.yml",
+    "scripts/",
+    "package.json"
+  ],
+  "keywords": [
+    "pstack",
+    "agent-skills",
+    "pi-package",
+    "deepseek-harness"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  }
+}
