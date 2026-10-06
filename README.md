@@ -1,5 +1,9 @@
 # pstack for Everyone
 
+<p align="center">
+  <img src="assets/pstack.png" alt="Illustration of a smiling character in a black and pink hood holding a roasted sweet potato" width="360">
+</p>
+
 50 pstack skills for inspecting code, designing changes, implementing features, and reviewing the result. Use them in Cursor, Codex, Claude Code, Pi, OpenCode, oh-my-pi, or DeepSeek Harness (DSH).
 
 Each host loads the same [`skills/`](skills/) directory. The package includes native metadata for plugin, package, or skill discovery, so you can use pstack outside Cursor without maintaining a separate copy of its skills.
